@@ -2,7 +2,8 @@ package baekjoon.Queue;
 
 import java.io.*;
 import java.util.StringTokenizer;
-
+// 백준 - 큐
+// 방식1 큐 직접 구현
 public class P10845 {
     private final int[] arr = new int[10000];
     private int front = -1; // 데이터 꺼내는 위치
