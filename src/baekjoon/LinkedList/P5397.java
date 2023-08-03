@@ -3,7 +3,7 @@ package baekjoon.LinkedList;
 import java.io.*;
 import java.util.LinkedList;
 import java.util.ListIterator;
-// 백준-키로거 연결리스트 에러 못 고침
+// 백준 - 키로거 연결리스트 에러 못 고침
 public class P5397 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

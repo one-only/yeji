@@ -23,7 +23,7 @@ public class P18258 {
             String str = st.nextToken();
             switch (str) {
                 case "push":
-                    // 주의! push는 값을 앞쪽에 삽입하므로 X
+                    // 주의! push()는 값을 앞쪽에 삽입하므로 X
                     deque.offer(Integer.parseInt(st.nextToken()));
                     break;
                 case "pop":
