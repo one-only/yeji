@@ -27,7 +27,7 @@ public class P1158 {
             for (int i = 0; i < turn; i++) {
                 // 다음 값이 있는 경우
                 if (iter.hasNext()) {
-                    if(i==turn-1)
+                    if(i==turn-1) // 마지막 요소 출력을 위해 removeList에 추가
                         removeList.add(iter.next());
                     else
                         iter.next();
@@ -37,7 +37,7 @@ public class P1158 {
                     // 커서를 가장 앞으로 이동시킴
                     while (iter.hasPrevious())
                         iter.previous();
-                    if(i==turn-1)
+                    if(i==turn-1) // 마지막 요소 출력을 위해 removeList에 추가
                         removeList.add(iter.next());
                     else
                         iter.next();

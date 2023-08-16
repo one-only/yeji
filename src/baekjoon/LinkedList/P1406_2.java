@@ -25,7 +25,6 @@ public class P1406_2 {
         while (iter.hasNext()) {
 //            System.out.println("iter.next() = " + iter.next()); // a b c d 차례로 출력됨
             iter.next();
-
         }
         // count만큼 반복, 명령어 한줄씩 읽어들여 처리
         for (int i = 0; i < count; i++) {
@@ -48,18 +47,15 @@ public class P1406_2 {
                         iter.previous();
                         iter.remove();
                     }
-
                     break;
                 case 'P':
-                    iter.add(command.charAt(2)); // 추가하면 자동으로 마지막 가리키는듯하다.
+                    iter.add(command.charAt(2)); // 커서는 추가한 값 바로 위치하게 된다.
                     break;
             }
         }//for
-
         for (Character character : list) {
             bw.write(character);
         }
-
         bw.flush();
         bw.close();
     }//main
