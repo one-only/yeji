@@ -1,8 +1,6 @@
-package baekjoon.Stack;
+package baekjoon.stack;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.Stack;
 import java.util.StringTokenizer;
 
 // 오큰수 - 배열(시간초과)

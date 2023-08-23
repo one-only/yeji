@@ -1,4 +1,4 @@
-package baekjoon.LinkedList;
+package baekjoon.linkedList;
 
 import java.io.BufferedReader;
 import java.io.IOException;

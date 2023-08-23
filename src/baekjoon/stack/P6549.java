@@ -1,4 +1,4 @@
-package baekjoon.Stack;
+package baekjoon.stack;
 // 히스토그램에서 가장 큰 직사각형
 public class P6549 {
 
