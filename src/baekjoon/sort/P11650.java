@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
-
 // 좌표 정렬하기
 public class P11650 {
     public static void main(String[] args) throws IOException {
