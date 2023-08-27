@@ -16,11 +16,12 @@ public class P9375 {
             int num = Integer.parseInt(br.readLine());
             for (int j = 0; j < num; j++) {
                 String[] arr = br.readLine().split(" ");
+
                 map.put(arr[1], map.getOrDefault(arr[1], 0) + 1);
             }
             int sum = 1;
             for (Integer value : map.values()) {
-                sum *= (value+1); // 각 의상 종류별 선택 여부 + 그 옵셥을 선택하지 않은 경우
+                sum *= (value + 1); // 각 의상 종류별 선택 여부 + 그 옵셥을 선택하지 않은 경우
             }
             sum -= 1; // 모든 의상을 선택하지 않은 경우는 제외
             bw.write(sum+"\n");
