@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
+// 회전하는 큐
 public class P1021 {
     public static int count = 0;
     public static LinkedList<Integer> leftTurn(LinkedList<Integer> deque) {
@@ -13,7 +13,6 @@ public class P1021 {
         deque.addLast(deque.removeFirst());
         return deque;
     }
-
     public static LinkedList<Integer> rightTurn(LinkedList<Integer> deque) {
         count++;
         deque.addFirst(deque.removeLast());
@@ -37,7 +36,6 @@ public class P1021 {
         }
         // N/2+1이지만 인덱스는 0부터이므로 -1하여 2/N
         // 짝,홀 모두 N/2 까지는 2번, 그 이후는 3번 연산을 해야한다.
-        // 근데
         for (int i = 0; i < M; i++) {
             int target_idx = deque.indexOf(seq[i]);
             int limit = deque.size()/2;
