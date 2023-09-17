@@ -4,7 +4,6 @@ import java.io.*;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
-
 // 덱
 public class P10866 {
     public static void main(String[] args) throws IOException {

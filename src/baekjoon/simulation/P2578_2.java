@@ -1,10 +1,7 @@
 package baekjoon.simulation;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 // 빙고
 // st -> sc 로 변경 (제출완료)
@@ -46,7 +43,6 @@ public class P2578_2 {
             if(zeroCount==5) count++;
         }
     }
-
     // 세로줄 빙고
     public static void cCheck(int[][] arr) {
         for (int i = 0; i < 5; i++) {
@@ -66,7 +62,6 @@ public class P2578_2 {
         if(zeroCount==5) count++;
 
     }
-
     // 오른쪽으로 내려가는 대각선
     public static void rightCheck(int[][] arr) {
         int zeroCount = 0;
