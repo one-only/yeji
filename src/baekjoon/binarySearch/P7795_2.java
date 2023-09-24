@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
-
 // 정렬2 - 먹을 것인가 먹힐 것인가 - 시간초과 (정렬안하고 A요소보다 큰것 찾도록만 변경)
 public class P7795_2 {
     public static void main(String[] args) throws IOException {
