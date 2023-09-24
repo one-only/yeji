@@ -1,4 +1,4 @@
-package baekjoon.search;
+package baekjoon.binarySearch;
 
 import java.io.*;
 import java.util.*;
@@ -15,8 +15,9 @@ public class P1822 {
         // 차집합 개수
         int count = 0;
 
+        // HashSet과 달리 TreeSet은 저장 순서를 가진다.
+        // (HashSet은 해시 코드 기반의 순서라 저장된 순서와는 다르다.)
         Set<Integer> aSet = new TreeSet<>();
-        Set<Integer> bSet = new TreeSet<>();
 
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < aNum; i++) {
@@ -29,6 +30,10 @@ public class P1822 {
             if(aSet.contains(num))
                 aSet.remove(num);
         }
+        // 결과 출력하기
+        // TreeSet이 필요한 이유->(요구사항) 증가하는 순서로 출력하기 위해
+        // TreeSet은 입력을 크기 순으로 하지 않아도 자동으로 크기순으로 저장을 한다.
+        // ex) 2 5 11 7 로 입력하여도 2 5 7 11 로 저장된다.
         bw.write(aSet.size()+"\n");
         Iterator<Integer> iter = aSet.iterator();
         if (!aSet.isEmpty()) {
