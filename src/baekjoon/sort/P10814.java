@@ -17,7 +17,6 @@ public class P10814 {
             arr[i][0] = st.nextToken();
             arr[i][1] = st.nextToken();
         }
-
         Arrays.sort(arr, new Comparator<String[]>() {
             @Override
             public int compare(String[] o1, String[] o2) {
