@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Scanner;
 
 // 정렬2 - 국영수
+// P10825와 동일 - 변경사항: 입출력부분만 변경
+// 객체 사용 o , scanner, println 사용(2464ms)
 class Student {
     String name;
     int kor;
