@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.StringTokenizer;
-
 // 정렬2 - 먹을 것인가 먹힐 것인가 - 시간초과
 public class P7795 {
     public static void main(String[] args) throws IOException {
