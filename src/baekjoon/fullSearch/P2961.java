@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-// 브루트포스 - 도영이가 만든 맛있는 음식
+// 브루트포스(완전탐색) - 도영이가 만든 맛있는 음식
 public class P2961 {
     static int N;
     static int[] S;
