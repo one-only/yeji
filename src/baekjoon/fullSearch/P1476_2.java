@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 브루트포스 - 날짜계산(시간초과)
+// 브루트포스(완전탐색) - 날짜계산(시간초과)
 public class P1476_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

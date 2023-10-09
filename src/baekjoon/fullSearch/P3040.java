@@ -2,7 +2,7 @@ package baekjoon.fullSearch;
 
 import java.io.*;
 
-// 브루트포스 - 백설 공주와 일곱 난쟁이
+// 브루트포스(완전탐색) - 백설 공주와 일곱 난쟁이
 public class P3040 {
     static int sum = 0;
     public static void main(String[] args) throws IOException {

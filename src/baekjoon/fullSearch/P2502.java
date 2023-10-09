@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-// 브루트포스 - 떡 먹는 호랑이
+// 브루트포스(완전탐색) - 떡 먹는 호랑이
 public class P2502 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
