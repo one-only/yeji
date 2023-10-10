@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.hash;
 
 import java.io.*;
 import java.util.HashSet;
