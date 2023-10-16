@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.heap;
 
 import java.io.*;
 import java.util.Collections;
