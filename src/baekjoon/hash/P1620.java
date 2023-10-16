@@ -32,7 +32,6 @@ public class P1620 {
         bw.flush();
         bw.close();
     }
-
     static int stoi(String str) {
        return Integer.parseInt(str);
     }

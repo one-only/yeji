@@ -41,7 +41,6 @@ public class P19583 {
     static int stoi(String str) {
         return Integer.parseInt(str);
     }
-
     static int makeTime(String str) {
         String[] arr = str.split(":");
         int ans = stoi(arr[0]+arr[1]);

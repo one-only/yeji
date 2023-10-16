@@ -5,7 +5,6 @@ import java.util.*;
 
 // 절댓값 힙 https://www.acmicpc.net/problem/11286
 // 별도의 큐를 만들어 음수를 판별하는 방식(시간초과)
-
 public class P11286 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

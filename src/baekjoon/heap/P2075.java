@@ -28,7 +28,6 @@ public class P2075 {
         bw.flush();
         bw.close();
     }
-
     static int stoi(String str) {
         return Integer.parseInt(str);
     }

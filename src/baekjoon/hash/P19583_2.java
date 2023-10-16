@@ -43,7 +43,6 @@ public class P19583_2 {
         System.out.println(count);
         br.close();
     }
-
     static int stoi(String str) {
         return Integer.parseInt(str);
     }
