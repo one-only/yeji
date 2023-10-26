@@ -6,8 +6,6 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 // 절댓값 힙 https://www.acmicpc.net/problem/11286
-
-
 public class P11286_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

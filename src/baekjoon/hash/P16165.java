@@ -24,7 +24,6 @@ public class P16165 {
                 map.put(br.readLine(), i);
             }
         }
-
         for (int i = 0; i < M; i++) {
             String str = br.readLine();
             if (stoi(br.readLine()) == 1) { // 멤버 이름
